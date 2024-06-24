@@ -1,28 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         {/* <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p> */
-//         <h1>Hello World!</h1>}
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
 // export default App;
 // import ButtonComponent from "./components/buttons.js";
 // import {
@@ -57,14 +32,13 @@
 // export default App;
 
 import React from "react";
-// import { ImageComponent } from "./components/images.js";
-// import ButtonComponent from "./components/buttons.js"
-// import {Heading1} from "./components/headings.js";
-// import {ListParentOrdered} from "./components/listParentList.js"
-// import { ListParentUnordered } from "./components/listParentList.js";
-import Card from "./components/card.js"
-import Form from "./components/forms.js"
-import Table from "./components/tables.js"
+// import { ImageComponent } from "./components/images/image.js";
+// import ButtonComponent from "./components/buttons/button.js"
+// import {Heading1} from "./components/headings/heading.js";
+import Card from "./components/cards/card.js"
+import Form from "./components/forms/form.js"
+import Table from "./components/tables/table.js"
+import { ListParentOrdered } from "./components/lists/parentlist.js";
 
 const App = () =>{
   return(
@@ -78,6 +52,7 @@ const App = () =>{
    <Card></Card>
    <Form></Form>
    <Table></Table>
+   <ListParentOrdered></ListParentOrdered>
    </>
    
   </div>

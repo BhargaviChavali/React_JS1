@@ -1,6 +1,6 @@
-import ButtonComponent from "./buttons";
-import { Heading1 } from "./headings";
-import { ImageComponent } from "./images";
+import ButtonComponent from "../buttons/button";
+import { Heading1 } from "../headings/heading";
+import { ImageComponent } from "../images/image";
 
 
 const Card = ()=>{
